@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, sans-serif;
+  color: white;
+  background-color: #23252C;
+}
+
+* > a {
+  text-decoration: none;
+}
+
+info, about, interests, footer {
+  display: block;
+  margin: auto;
+  width: 300px;
+  background: #1A1B21;
+}
+
+info {
+  margin-top: 30px;
+  height: 475px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.info--profile-pic {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.info--main-title, .info--second-title, .info--website-text {
+  text-align: center;
+  font-weight: 400;
+  margin: 5px;
+}
+
+.info--main-title {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.info--second-title {
+  font-size: 13px;
+  color: #F3BF99;
+}
+
+.info--website-text {
+  font-size: 10px;
+  margin-top: 15px;
+  margin-left: 105px;
+  margin-right: 105px;
+  color: white;
+  cursor: pointer;
+}
+
+.info--contact-buttons-section {
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.info--contact-buttons-section > a {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  padding: 1.5px 22px 1.5px 11px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.info--button-icon {
+  width: 30px;
+  height: 30px;
+  padding: 10px;
+}
+
+.info--email-button {
+  background: white;
+  color: black;
+}
+
+.info--linkedin-button {
+  background: #5093E2;
+  color: white;
+}
+
+about, interests {
+  margin-top: -20px;
+  height: 95px;
+}
+
+.about--header, .interests--header {
+  margin-left: 25px;
+  font-size: 16px;
+}
+
+.about--text, .interests--text {
+  margin-top: -20px;
+  font-size: 11px;
+  line-height: 15px;
+  text-align: justify;
+  padding: 10px 25px 10px 25px;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 60px;
+  border-radius: 0px 0px 10px 10px;
+  padding: 10px 30px 10px 30px;
+  background: #161619;
+}
+
+.footer--icon {
+  display: flex;
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+}

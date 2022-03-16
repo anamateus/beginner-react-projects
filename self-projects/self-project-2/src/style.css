@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  font-size: 10px;
+  color: #2B283A;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #F55A5A;
+}
+
+.gray {
+  color: #918E9B;
+}
+
+.header--icon {
+  max-width: 24px;
+  margin: 7px;
+}
+
+.header--title {
+  font-size: 14px;
+  color: white;
+}
+
+.travel {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  max-width: 575px;
+  max-height: 240px;
+}
+
+hr {
+  width: 525px;
+  border: 1px solid #F5F5F5;
+}
+
+.travel--img {
+  width: 125px;
+  height: 170px;
+  border-radius: 5px;
+  margin: 20px;
+}
+
+.travel--location {
+  display: flex;
+  align-items: baseline;
+  max-height: 25px;
+}
+
+.travel--location-icon {
+  width: 7px;
+  height: 9px;
+  margin-right: 4px;
+}
+
+.travel--location-name {
+  letter-spacing: 0.17em;
+  margin-right: 12px;
+}
+
+.travel--title {
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 2px;
+  margin-bottom: 7px;
+}
+
+.travel--date {
+  font-weight: bold;
+  margin-bottom: 7px;
+}
+
+.travel--description {
+  text-align: justify;
+  margin-right: 20px;
+}
+
+footer {
+  font-size: 12px;
+  text-align: center;
+  padding: 20px;
+  color: #4d4766;
+}
