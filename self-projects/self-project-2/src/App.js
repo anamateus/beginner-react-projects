@@ -5,7 +5,7 @@ import Travel from "./components/Travel"
 import Footer from "./components/Footer"
 
 export default function App() {
-  let travels = data.map(item => (<Travel item={item}/>));
+  let travels = data.map(item => (<Travel key={item.id} item={item}/>));
 
   return (
     <div>

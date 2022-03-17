@@ -1,5 +1,6 @@
 export default [
     {
+        id: 1,
         title: "Dubrovnik",
         location: "Croatia",
         googleMapsUrl: "https://goo.gl/maps/gRiEjDy8nUKKkbu36",
@@ -9,6 +10,7 @@ export default [
         image: "dubrovnik.JPG"
     },
     {
+        id: 2,
         title: "Cavtat",
         location: "Croatia",
         googleMapsUrl: "https://goo.gl/maps/jt5m2YQz8DxywSFf9",
@@ -18,6 +20,7 @@ export default [
         image: "cavtat.JPG"
     },
     {
+        id: 3,
         title: "Menorca",
         location: "Spain",
         googleMapsUrl: "https://goo.gl/maps/2mTH1Vue3DgrrNPMA",
@@ -27,6 +30,7 @@ export default [
         image: "menorca.JPG"
     },
     {
+        id: 4,
         title: "New York",
         location: "USA",
         googleMapsUrl: "https://goo.gl/maps/4HxsWvYVgijbN9gV6",
