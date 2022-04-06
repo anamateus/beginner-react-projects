@@ -1,13 +1,21 @@
 import React from "react"
+import MainPage from "./MainPage"
+import Quiz from "./Quiz"
 
 export default function App() {
+  const [start, setStart] = React.useState(false)
+
+  function startNewQuiz() {
+    setStart(!start)
+  }
+
   return (
     <main>
-      <img className="yellow-blob" src={require("./images/blob-yellow.png")}/>
-      <img className="blue-blob" src={require("./images/blob-blue.png")}/>
-      <h1 className="title">Quizzical</h1>
-      <h4 className="description">Some description if needed</h4>
-      <button className="start-button">Start quiz</button>
+      <img className="yellow-blob" src={require("./images/blob-yellow.png")} alt=""/>
+      <img className="blue-blob" src={require("./images/blob-blue.png")} alt=""/>
+      
+      {!start && <MainPage startNewQuiz={startNewQuiz}/>}
+      {start && <Quiz startNewQuiz={startNewQuiz}/>}
     </main>
   )
 }
